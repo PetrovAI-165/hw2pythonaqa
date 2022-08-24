@@ -23,22 +23,22 @@ def getOperand():
 
 def calc(firstValue, operand, secondValue):
     if secondValue == 0:
-        operands = {
+        actions = {
             '+': firstValue,
             '-': firstValue,
             '*': 0,
             '/': None
         }
-        return operands.get(operand)
+        return actions.get(operand)
 
-    operands = {
+    actions = {
         '+': firstValue + secondValue,
         '-': firstValue - secondValue,
         '*': firstValue * secondValue,
         '/': firstValue / secondValue
     }
 
-    return operands.get(operand)
+    return actions.get(operand)
 
 
 print("Input value: ")
