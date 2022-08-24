@@ -1,6 +1,5 @@
 def getValue():
     value = input()
-
     try:
         value = int(value)
     except:

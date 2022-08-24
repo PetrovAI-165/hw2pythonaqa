@@ -1,6 +1,5 @@
 def getVolume():
     volume = input()
-
     try:
         volume = float(volume)
     except:
@@ -16,7 +15,6 @@ def getVolume():
 
 def getTemp():
     temp = input()
-
     try:
         temp = float(temp)
     except:
